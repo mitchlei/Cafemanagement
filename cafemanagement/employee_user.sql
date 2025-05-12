@@ -1,0 +1,1 @@
+ALTER TABLE users ADD status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending';
